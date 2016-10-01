@@ -653,10 +653,11 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #f7f7f7;
+    padding: 0px 0;
+    /*background-image: url(../img/jackal2.png);*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
 }
 
 section#contact .section-heading {
@@ -861,3 +862,7 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136;
 }
+
+/*#contact {
+    background-color: white;
+}*/
