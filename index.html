@@ -88,12 +88,33 @@
                     <img src="img/portfolio/Headshot.png" class="img-responsive" alt="">
                 </div>
                 <div class="col-sm-9">
-                    <h2 class="section-heading">MS Candidate - MIT - 2017</h2>
-                    <h4>Mechanical Engineering</h4>
-                    <h4>Aerospace Controls Lab</h4>
-                    <h2 class="section-heading">BS - MIT - 2015</h2>
-                    <h4>Mechanical Engineering (2A - 6)</h4>
-                    <h4>Concentration in Electrical Engineering</h4>
+                    <div class="col-sm-6">
+                        <h2 class="section-heading">SM Candidate</h2>
+                    </div>
+                    <div class="col-sm-2">
+                        <h2 class="section-heading">MIT</h2>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 class="section-heading">2015-2017</h2>
+                    </div>
+                    <div class="col-sm-12">
+                        <h4>Mechanical Engineering</h4>
+                        <h4>Aerospace Controls Lab</h4>
+                        <h4>Thesis Topic: TBD</h4>
+                    </div>  
+                    <div class="col-sm-6">
+                        <h2 class="section-heading">SB Degree</h2>
+                    </div>
+                    <div class="col-sm-2">
+                        <h2 class="section-heading">MIT</h2>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 class="section-heading">2011-2015</h2>
+                    </div>
+                    <div class="col-sm-12">
+                        <h4>Mechanical Engineering (2A - 6)</h4>
+                        <h4>Concentration in Electrical Engineering</h4>
+                    </div>
                     <br><br>
                 </div>
             </div>
@@ -103,6 +124,40 @@
     <!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Research Projects</h2>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                    <a href="http://acl.mit.edu/projects/socially_accept_nav.html" class="portfolio-link" target="_blank">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/jackal/jackal.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Socially-Acceptable Navigation</h4>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                    <a href="#portfolioQuadSafeLanding" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/big_quad.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Quadrotor Safety System</h4>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Hardware Projects</h2>
@@ -247,7 +302,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Michael Everett 2016</span>
+                    <span class="copyright">Copyright &copy; Michael Everett 2017</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
@@ -507,6 +562,36 @@
                             </ul>
                             <p><a href="img/portfolio/16.31/16.31shortreport.pdf" target="_blank">Click here</a> to see a short document about the project.</p>
                             <p><a href="img/portfolio/16.31/16.31longreport.pdf" target="_blank">Click here</a> to see a full report with detailed explanation of the project and more analysis.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioQuadSafeLanding" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Quadrotor Safety System</h2>
+                            <p class="item-intro text-muted">Robustness to Communication Dropouts</p>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/368obpmh2Wo" frameborder="0" allowfullscreen></iframe>
+                            <ul class="list-inline">
+                                <li>Date: Spring 2016</li>
+                            </ul>
+                            <p>During normal autonomous flight, there are bound to be communication issues. Sometimes it is just a few packets being dropped, and other times we observed several tenths of a second of wifi dropout. </p>
+                            <p>In this system, vehicles constantly monitor the health of their communication with an offboard computer. If the dropout is very short, it is ignored. If it is slightly longer, the vehicle begins to execute a maneuver to zero its velocities. If the dropout is still happening at this point, the vehicle performs an open loop landing.</p>
+                            <p>This new ability to handle the full spectrum of communication issues allows experiments and demonstrations to last longer and be more reliable. Future work in this project will incorporate on-board sensing to estimate altitude and velocity and close the loop on the safety maneuvers.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
