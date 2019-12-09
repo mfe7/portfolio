@@ -62,7 +62,7 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -877,3 +877,31 @@ body {
 /*#contact {
     background-color: white;
 }*/
+
+.portfolio-img {
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.publications-img {
+    width: 200px;
+    border: 2px solid black;
+    float: left;
+    margin-right: 15px;
+    border-radius: 20px;"
+}
+
+.press-img {
+    inline-block;
+    height: 130px;
+    vertical-align: middle
+}
+
+.code-img {
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
