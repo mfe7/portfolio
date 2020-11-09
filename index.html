@@ -70,11 +70,11 @@
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#publications">Publications</a>
+<!--                     <li>
+                        <a class="page-scroll" href="#portfolio">Areas</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Projects</a>
+ -->                    <li>
+                        <a class="page-scroll" href="#publications">Publications</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#software">Software</a>
@@ -155,6 +155,48 @@
         </div>
     </section>
 
+    <!-- <hr> -->
+
+    <!-- <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section-heading">Research Areas</h2>
+                </div>
+            </div>
+            <br><br>
+            <div class="row col-md-12 col-sm-12 text-center">
+                <div class="col-md-4 col-sm-4">
+                    <h4>Uncertainty-Aware Deep Learning</h4>
+                    <ul class="text-left">
+                      <li>ICRA '19</li>
+                      <li>CORL '19</li>
+                      <li>IEEE TNNLS submission</li>
+                      <li>IEEE L-CSS submission</li>
+                      <li>ICRA '21 submission</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <h4>Human-Aware Motion Planning</h4>
+                    <ul class="text-left">
+                        <li>ICRA '17</li>
+                        <li>IROS '17</li>
+                        <li>IROS '18</li>
+                        <li>RA-L '20</li>
+                        <li>IJRR submission</li>
+                        <li>RA-L '21 submission</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <h4>Context-Aware Navigation</h4>
+                    <ul class="text-left">
+                        <li>IROS '19</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
     <section id="publications" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -174,12 +216,54 @@
                 <div class="col-sm-12">
                     <table>
                     <tr>
+                    <td><img src="img/portfolio/papers/icra21_diagram.png" width=200px style="border: 2px solid black; float:left; margin-right:15px; border-radius: 20px;"/></td>
+                    <td>
+                    <div>
+                        <h4>Efficient Reachability Analysis of Closed-Loop Systems with Neural Network Controllers</h4>
+                        <h5 style="font-weight: normal"><strong>Michael Everett</strong>, Golnaz Habibi, Jonathan P. How</h5>
+                        <h5 style="font-weight: normal">ICRA '21, in review</h5>
+                        <h5>
+                            Paper link coming soon...
+                        </h5>
+                    </div>
+                    </td>
+                    </tr>
+                    </table>
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <table>
+                    <tr>
+                    <td><img src="img/portfolio/papers/ral_icra21_diagram.png" width=200px style="border: 2px solid black; float:left; margin-right:15px; border-radius: 20px;"/></td>
+                    <td>
+                    <div>
+                        <h4>Where to go next: Learning a Subgoal Recommendation Policy for Navigation Among Pedestrians</h4>
+                        <h5 style="font-weight: normal">Bruno Brito, <strong>Michael Everett</strong>, Jonathan P. How, Javier Alonso-Mora</h5>
+                        <h5 style="font-weight: normal">IEEE Robotics & Automation Letters (RA-L), in review</h5>
+                        <h5>
+                            Paper link coming soon...
+                        </h5>
+                    </div>
+                    </td>
+                    </tr>
+                    </table>
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <table>
+                    <tr>
                     <td><img src="img/portfolio/papers/partitions.gif" width=200px style="border: 2px solid black; float:left; margin-right:15px; border-radius: 20px;"/></td>
                     <td>
                     <div>
                         <h4>Robustness Analysis of Neural Networks via Efficient Partitioning: Theory and Applications in Control Systems</h4>
                         <h5 style="font-weight: normal"><strong>Michael Everett</strong>, Golnaz Habibi, Jonathan P. How</h5>
-                        <h5 style="font-weight: normal">In Review</h5>
+                        <h5 style="font-weight: normal">IEEE Control Systems Letters, in review</h5>
                         <h5>
                             <a href="https://arxiv.org/pdf/2010.00540.pdf" target="_blank">Paper <i class="fa fa-file"></i></a>
                         </h5>
@@ -604,77 +688,91 @@
 
         </div>
     </section>
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    
+    <section id="software">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Recent & Ongoing Research Projects</h2>
+                    <h2 class="section-heading">Open-Source Software</h2>
                 </div>
             </div>
             <br><br>
-            <div class="row">
-                <div class="col-md-6 col-sm-6 portfolio-item">
-                    <a href="http://acl.mit.edu/projects/safe-rl" class="portfolio-link" target="_blank">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/papers/carrl_intuition.png" class="img-responsive portfolio-img" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Safety & Robustness in Deep RL</h4>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 portfolio-item">
-                    <a href="http://acl.mit.edu/projects/self-driving-delivery-robot" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/papers/self_driving_delivery_robot.png" class="img-responsive portfolio-img" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Self-Driving Delivery Robot</h4>
-                    </div>
-                </div>
-            </div>
-            <br><br>
-            <div class="row">
-                <div class="col-md-6 col-sm-6 portfolio-item">
-                    <a href="http://acl.mit.edu/projects/socially-acceptable-navigation" class="portfolio-link" target="_blank">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/jackal/jackal.png" class="img-responsive portfolio-img" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Socially Acceptable Navigation</h4>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 portfolio-item">
-                    <a href="#portfolioQuadSafeLanding" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/big_quad.png" class="img-responsive portfolio-img" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Quadrotor Safety System</h4>
-                    </div>
-                </div>
-            </div>
 
+            <div class="row">
+                <div class="col-md-4 col-sm-4 portfolio-item text-center">
+                    <a href="https://github.com/mit-acl/cadrl_ros" target="_blank">
+                        <img src="img/portfolio/code/A3C_20agents_0.png" class="img-responsive code-img" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>CADRL ROS package</h4><br>
+                        <a class="github-button" href="https://github.com/mit-acl/cadrl_ros" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+                        <a class="github-button" href="https://github.com/mit-acl/cadrl_ros/fork" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 portfolio-item text-center">
+                    <a href="https://github.com/mit-acl/gym-collision-avoidance" target="_blank">
+                        <img src="img/portfolio/papers/cadrl_ijrr.gif" class="img-responsive code-img" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Collision Avoidance Training Environment (Gym)</h4>
+                        <br>
+                        <a class="github-button" href="https://github.com/mit-acl/gym-collision-avoidance" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+                        <a class="github-button" href="https://github.com/mit-acl/gym-collision-avoidance/fork" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 portfolio-item text-center">
+                    <a href="https://github.com/mit-acl/rl_collision_avoidance" target="_blank">
+                        <img src="img/portfolio/papers/cadrl_ijrr_training_curve.png" class="img-responsive code-img" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>RL Training for Collision Avoidance (GA3C-CADRL)</h4>
+                        <br>
+                        <a class="github-button" href="https://github.com/mit-acl/rl_collision_avoidance" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+                        <a class="github-button" href="https://github.com/mit-acl/rl_collision_avoidance/fork" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a>
+                    </div>
+                </div>
+                
+            </div>
             <br><br>
-            <hr>
-            <br><br>
+            <div class="row">
+                <div class="col-md-4 col-sm-4 portfolio-item text-center">
+                    <a href="https://github.com/mit-acl/android_loomo_ros_core" target="_blank">
+                        <img src="img/portfolio/code/loomo.jpeg" class="img-responsive code-img" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Loomo Android-ROS</h4><br>
+                        <a class="github-button" href="https://github.com/mit-acl/android_loomo_ros_core" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+                        <a class="github-button" href="https://github.com/mit-acl/android_loomo_ros_core/fork" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 portfolio-item text-center">
+                    <a href="https://github.com/mit-acl/dc2g" target="_blank">
+                        <img src="img/portfolio/papers/dc2g_architecture.png" class="img-responsive code-img" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Deep Cost-to-Go</h4><br>
+                        <a class="github-button" href="https://github.com/mit-acl/dc2g" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+                        <a class="github-button" href="https://github.com/mit-acl/dc2g/fork" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 portfolio-item text-center">
+                    <a href="https://github.com/mfe7/video_overlay" target="_blank">
+                        <img src="img/portfolio/code/video_overlay.png" class="img-responsive code-img" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Trajectory Overlays</h4><br>
+                        <a class="github-button" href="https://github.com/mfe7/video_overlay" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+                        <a class="github-button" href="https://github.com/mfe7/video_overlay/fork" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br><br>
+        <hr>
+        <br><br>
+
+        <div class="container">
 
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -744,228 +842,15 @@
                             </div>
                         </div>
                         <div class="press-div">
-                            <img src="img/portfolio/news/today.jpeg" class="press-img  alt="">
+                            <img src="img/portfolio/news/today.jpeg" class="press-img" alt="">
                         </div>
                     </a>
-                </div>
-            </div>
-
-    </section>
-    
-    <hr>
-
-    <section id="software">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Open-Source Software</h2>
-                </div>
-            </div>
-            <br><br>
-
-            <div class="row">
-                <div class="col-md-3 col-sm-3 portfolio-item text-center">
-                    <a href="https://github.com/mit-acl/cadrl_ros" target="_blank">
-                        <img src="img/portfolio/code/A3C_20agents_0.png" class="img-responsive code-img" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>CADRL ROS package</h4><br>
-                        <a class="github-button" href="https://github.com/mit-acl/cadrl_ros" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
-                        <a class="github-button" href="https://github.com/mit-acl/cadrl_ros/fork" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 portfolio-item text-center">
-                    <a href="https://github.com/mit-acl/android_loomo_ros_core" target="_blank">
-                        <img src="img/portfolio/code/loomo.jpeg" class="img-responsive code-img" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Loomo Android-ROS</h4><br>
-                        <a class="github-button" href="https://github.com/mit-acl/android_loomo_ros_core" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
-                        <a class="github-button" href="https://github.com/mit-acl/android_loomo_ros_core/fork" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 portfolio-item text-center">
-                    <a href="https://github.com/mit-acl/dc2g" target="_blank">
-                        <img src="img/portfolio/papers/dc2g_architecture.png" class="img-responsive code-img" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Deep Cost-to-Go</h4><br>
-                        <a class="github-button" href="https://github.com/mit-acl/dc2g" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
-                        <a class="github-button" href="https://github.com/mit-acl/dc2g/fork" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 portfolio-item text-center">
-                    <a href="https://github.com/mfe7/video_overlay" target="_blank">
-                        <img src="img/portfolio/code/video_overlay.png" class="img-responsive code-img" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Trajectory Overlays</h4><br>
-                        <a class="github-button" href="https://github.com/mfe7/video_overlay" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
-                        <a class="github-button" href="https://github.com/mfe7/video_overlay/fork" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a>
-                    </div>
-                </div>
-            </div>
-            <br><br>
-            <div class="row">
-                <div class="col-md-6 col-sm-6 portfolio-item text-center">
-                    <a href="https://github.com/mit-acl/gym-collision-avoidance" target="_blank">
-                        <img src="img/portfolio/papers/cadrl_ijrr.gif" class="img-responsive code-img" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Collision Avoidance Training Environment (Gym)</h4>
-                        <br>
-                        <a class="github-button" href="https://github.com/mit-acl/gym-collision-avoidance" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
-                        <a class="github-button" href="https://github.com/mit-acl/gym-collision-avoidance/fork" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 portfolio-item text-center">
-                    <a href="https://github.com/mit-acl/rl_collision_avoidance" target="_blank">
-                        <img src="img/portfolio/papers/cadrl_ijrr_training_curve.png" class="img-responsive code-img" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>RL Training for Collision Avoidance (GA3C-CADRL)</h4>
-                        <br>
-                        <a class="github-button" href="https://github.com/mit-acl/rl_collision_avoidance" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
-                        <a class="github-button" href="https://github.com/mit-acl/rl_collision_avoidance/fork" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <hr>
-
-    <!-- <section id="portfolio">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Older Projects</h2>
-                </div>
-            </div>
-            <br><br>
-            <div class="row">
-                <div class="col-md-6 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/airhockey.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Air Hockey Robot</h4>
-                        <p class="text-muted">6.115 Final Project</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 portfolio-item">
-                    <a href="#portfolioLQI" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/16.31/drone_moving.gif" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>LQI Control on Parrot Minidrone</h4>
-                        <p class="text-muted">16.31 Final Project</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-6 portfolio-item">
-                    <a href="#portfolio2671" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/trajectories.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Swimming Reaction Time Analysis</h4>
-                        <p class="text-muted">2.671 Go-Forth Project</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 portfolio-item">
-                    <a href="#portfoliomaglev" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/levitation.gif" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Magnetic Ball Levitation</h4>
-                        <p class="text-muted">2.171 Final Project</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2009" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/wali/1.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Wali: Hands-Free Baby Gate</h4>
-                        <p class="text-muted">2.009 Product</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2008" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/yoyos/yoyo_front.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Skyline Yoyos</h4>
-                        <p class="text-muted">2.008 Project</p>
-                    </div>
-                </div>
-            </div>            
-            <div class="row">
-                <div class="col-md-6 col-sm-6 portfolio-item">
-                    <a href="http://puns.mit.edu" target="_blank" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/puns.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Pun Genereation</h4>
-                        <p class="text-muted">Turn a phrase into a punchline</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/ofcourse.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>OfCourse</h4>
-                        <p class="text-muted">iCampus Competition $3,000 Grand Prize</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
     <section id="contact"></section>
 
@@ -989,347 +874,6 @@
             </div>
         </div>
     </footer>
-
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Robotic Air Hockey Goalie</h2>
-                            <p class="item-intro text-muted">6.115 Final Project</p>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ME8_mwl8Y9s" frameborder="0" allowfullscreen></iframe>
-                            <ul class="list-inline">
-                                <li>Date: May 2014</li>
-                            </ul>
-                            <p><a href="img/portfolio/6.115report.pdf" target="_blank">Click here</a> to see my lab report for a detailed explanation of the project.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 2009 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2009" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Wali : Hands-Free Baby Gate</h2>
-                            <p class="item-intro text-muted">2.009 Product</p>
-                            <iframe src="https://player.vimeo.com/video/114148930?title=0&byline=0&portrait=0" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                            <ul class="list-inline">
-                                <li>Date: Fall 2014</li>
-                            </ul>
-                            <p>Wali is a baby gate with sensors to detect whether an object that is approaching the gate is an adult or not, then safely unlocks to protect children, but allow ease of use by adults. I mainly worked on the electronics and sensors but as a team of 24 students and several mentors, we all worked together to develop the product during the semester. The pictures below show a few iterations and the barebones board I designed.</p>
-                            <div id="wali_array">
-                                <div class="col-md-12">
-                                    <img src="img/portfolio/wali/brochure.jpg" width="100%">
-                                </div>
-                                <div class="col-md-12">
-                                    <img src="img/portfolio/wali/brochure2.jpg" width="100%">
-                                </div>
-                                <div class="col-md-12">
-                                    <img src="img/portfolio/wali/layout.jpg" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/wali/1.jpg" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/wali/2.jpg" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/wali/5.jpg" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/wali/6.jpg" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/wali/3.jpg" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/wali/4.jpg" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/wali/7.jpg" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/wali/8.jpg" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/wali/9.jpg" width="100%">
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 2008 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2008" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Skyline Yoyos</h2>
-                            <p class="item-intro text-muted">2.008 Project</p>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/N9v5XRzbuE8" frameborder="0" allowfullscreen></iframe>
-                            <ul class="list-inline">
-                                <li>Date: Fall 2014</li>
-                            </ul>
-                            <p><a href="http://skyline-yoyo.blogspot.com/" target="_blank">Click here</a> to see the team's blog for a detailed explanation of the project. A team of 6 students made 50 yoyos to tight tolerances. There were 4 injection molded parts and 1 thermoformed part which snap-fit together in each yoyo. Inspired by the Brass Rat, on one side is the Boston skyline; the Cambridge skyline is on the other. Each skyline rotates on a bearing so it can stay still even as the yoyo spins.</p>
-
-                            <div id="yoyo_array">
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/yoyos/1.JPG" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/yoyos/2.JPG" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/yoyos/3.JPG" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/yoyos/4.JPG" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/yoyos/5.JPG" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/yoyos/6.JPG" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/yoyos/7.JPG" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/yoyos/8.JPG" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/yoyos/9.JPG" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/yoyos/10.JPG" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/yoyos/11.JPG" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/yoyos/12.JPG" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/yoyos/13.JPG" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/yoyos/14.JPG" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/yoyos/15.JPG" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/yoyos/16.JPG" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/yoyos/17.JPG" width="100%">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="img/portfolio/yoyos/18.JPG" width="100%">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>ofcourse.mit.edu</h2>
-                            <p class="item-intro text-muted">2014 iCampus Competition Grand Prize</p>
-                            <iframe width="420" height="315" src="https://www.youtube.com/embed/S3M10FnA6Vo" frameborder="0" allowfullscreen></iframe>                
-                            <p>If you have an MIT certificate, <a href="https://ofcourse.mit.edu">check it out live</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio LQI -->
-    <div class="portfolio-modal modal fade" id="portfolioLQI" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>LQI Control on Parrot Minidrone</h2>
-                            <p class="item-intro text-muted">16.31 Final Project</p>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/TClEofqtwyk" frameborder="0" allowfullscreen></iframe>
-                            <ul class="list-inline">
-                                <li>Date: Dec 2015</li>
-                            </ul>
-                            <p><a href="img/portfolio/16.31/16.31shortreport.pdf" target="_blank">Click here</a> to see a short document about the project.</p>
-                            <p><a href="img/portfolio/16.31/16.31longreport.pdf" target="_blank">Click here</a> to see a full report with detailed explanation of the project and more analysis.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="portfolioQuadSafeLanding" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Quadrotor Safety System</h2>
-                            <p class="item-intro text-muted">Robustness to Communication Dropouts</p>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/368obpmh2Wo" frameborder="0" allowfullscreen></iframe>
-                            <ul class="list-inline">
-                                <li>Date: Spring 2016</li>
-                            </ul>
-                            <p>During normal autonomous flight, there are bound to be communication issues. Sometimes it is just a few packets being dropped, and other times we observed several tenths of a second of wifi dropout. </p>
-                            <p>In this system, vehicles constantly monitor the health of their communication with an offboard computer. If the dropout is very short, it is ignored. If it is slightly longer, the vehicle begins to execute a maneuver to zero its velocities. If the dropout is still happening at this point, the vehicle performs an open loop landing.</p>
-                            <p>This new ability to handle the full spectrum of communication issues allows experiments and demonstrations to last longer and be more reliable. Future work in this project will incorporate on-board sensing to estimate altitude and velocity and close the loop on the safety maneuvers.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio 2671 -->
-    <div class="portfolio-modal modal fade" id="portfolio2671" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Swimming Reaction Time Analysis</h2>
-                            <p class="item-intro text-muted">2.671 Go-Forth Project</p>
-                            <ul class="list-inline">
-                                <li>Date: Spring 2015</li>
-                            </ul>
-                            <p><a href="img/portfolio/2.671/report.pdf" target="_blank">Click here</a> to see my detailed report.</p>
-                            <p><a href="img/portfolio/2.671/poster.pdf" target="_blank">Click here</a> to see the poster for this project.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio maglev -->
-    <div class="portfolio-modal modal fade" id="portfoliomaglev" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Magnetic Ball Levitation</h2>
-                            <p class="item-intro text-muted">2.171 Final Project</p>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Chfn8uVCth8" frameborder="0" allowfullscreen></iframe>
-                            <ul class="list-inline">
-                                <li>Date: Dec 2015</li>
-                            </ul>
-                            <p><a href="img/portfolio/2.171/report.pdf" target="_blank">Click here</a> to see our lab report for a detailed explanation of the project.</p>
-                            <p><a href="img/portfolio/2.171/presentation.pdf" target="_blank">Click here</a> to see the slides from our presentation.</p>
-                            <p><a href="img/portfolio/2.171/Single_operating_pt.ino" target="_blank">Click here</a> to see our Arduino code.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
